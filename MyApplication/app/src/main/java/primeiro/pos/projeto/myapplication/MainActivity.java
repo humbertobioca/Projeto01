@@ -1,6 +1,11 @@
 package primeiro.pos.projeto.myapplication;
 
 import android.Manifest;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.widget.Toast;
+import android.content.BroadcastReceiver;
+import android.os.PowerManager;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
